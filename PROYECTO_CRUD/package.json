@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.1",
+    "mongose": "^0.0.2-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
