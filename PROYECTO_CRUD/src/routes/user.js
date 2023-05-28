@@ -4,6 +4,7 @@ const userSchema = require("../models/user");
 
 const router = express.Router();
 
+
 //CREATE USER
 router.post("/users", (req, res) => {
     const user = userSchema(req.body);
@@ -20,6 +21,8 @@ router.get("/users", (req, res) => {
     .then((data) => res.json(data))
     .catch((error) => res.json({ message: error }));
 });
+
+
 
 //GET A USER
 router.get("/users/:id", (req, res) => {
